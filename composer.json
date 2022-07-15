@@ -1,0 +1,19 @@
+{
+    "name": "aydinpramasta/belajar-php-library",
+    "description": "Library Hello World",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aydin Pramasta",
+            "email": "pramastaaydin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AydinPramasta\\Belajar\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0.2"
+    }
+}
